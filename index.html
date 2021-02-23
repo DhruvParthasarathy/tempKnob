@@ -150,26 +150,27 @@
             <div class="text-9xl font-bold tracking-widest mb-5">HEAT</div>
             <div class="demo flex justify-center ">
 
-                <input id="outputField" class="knob absolute top-0 right-32 focus:outline-none cursor-default" data-min="0" data-max="8" data-angleOffset=180 data-angleArc=360 data-linecap=round value="0" data-displayInput="true" data-fgColor="#F50F5F" data-bgColor="#CCD8E8" data-inputColor="black" data-width="500" data-height="500" data-thickness=.25 data-readOnly=true>
+                <input id="outputField" class="knob absolute top-0 right-32 focus:outline-none cursor-default" data-min="0" data-max="8" data-angleOffset=180 data-angleArc=360 data-linecap=round value="0" data-displayInput="true" data-fgColor="#F50F5F" data-bgColor="#CCD8E8" data-inputColor="black" data-width="500" data-height="500" data-thickness=.25 data-readOnly=true
+                data-displayPrevious=true>
                 
             </div>     
             <div class="grid grid-rows-2 gap-5">
 
                 <div class="grid grid-cols-2 gap-20">
-                    <div class="button" id="stove1" onclick="setHeatData(1)">
+                    <button class="button" id="stove1" onclick="setHeatData(1)">
                         Stove 1
-                    </div>
-                    <div class="button" id="stove2" onclick="setHeatData(2)">
+                    </button>
+                    <button class="button" id="stove2" onclick="setHeatData(2)">
                         Stove 2
-                    </div>
+                    </button>
                 </div>
                 <div class="grid grid-cols-2 gap-20">
-                    <div class="button" id="stove3" onclick="setHeatData(3)" >
+                    <button class="button" id="stove3" onclick="setHeatData(3)" >
                         Stove 3
-                    </div>
-                    <div class="button" id="stove4" onclick="setHeatData(4)">
+                    </button>
+                    <button class="button" id="stove4" onclick="setHeatData(4)">
                         Stove 4
-                    </div>
+                    </button>
                     
                 </div>
 
